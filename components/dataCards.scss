@@ -1,0 +1,47 @@
+@use '../colors';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: colors.$background1;
+}
+.dataCardContainer{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    .dataCardData{
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dataCard{
+        background-color: white;
+        height: 250px;
+        width: 33%;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+    .material-symbols-outlined{
+        border-radius: 100%;
+        background-color: colors.$background2;
+        padding: 15px;
+    }
+    p{
+        padding-top: 10px;
+        font-size: 1.3rem;
+    }
+    .bottomPaddingP{
+        padding-bottom: 15px;
+        color: grey;
+        font-size: 1rem;
+    }
+    .bottomCardSection{
+        height: 9vh;
+        display: flex;
+        align-items: baseline;
+    }
+}
