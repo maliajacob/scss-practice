@@ -1,2 +1,215 @@
 @use 'base';
 @use './components/greenBox';
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .greenBoxContainer .greenBoxContainerContained {
+    height: 100px;
+    background-color: #cdf765;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 15px;
+  }
+  .greenBoxContainer .greenBoxContainerContained button {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .greenBoxContainer .greenBoxContainerContained .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    color: white;
+    background-color: #2b4a44;
+    padding: 15px;
+    border-radius: 100%;
+  }
+  .greenBoxContainer .greenBoxContainerContained .greenBoxIcon {
+    padding: 0 20px;
+  }
+  .greenBoxContainer .greenBoxContainerContained .greenBoxButtonSpan {
+    padding-right: 20px;
+  }
+  .greenBoxContainer .greenBoxContainerContained .greenBoxTextDiv {
+    flex-grow: 5555;
+  }
+  .greenBoxContainer .greenBoxContainerContained .greenBoxTextDiv .greenBoxTopText {
+    font-weight: 550;
+    font-size: 1.2rem;
+    padding-top: 8px;
+    line-height: 2px;
+  }/*# sourceMappingURL=style.css.map */
+  
+  
+  
+  
+  * {
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: #dfd5bc;
+    height: 3000px;
+    padding: 0px 20px;
+    border: 0px;
+    margin: 0px;
+  }
+  
+  .background2 {
+    background-color: #f3ecda;
+    display: flex;
+    padding: 4px;
+    border-radius: 50px;
+    width: fit-content;
+  }
+  
+  .open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0px 5px;
+    font-size: small;
+  
+  }
+  
+  .open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 0px 10px;
+  }
+  
+  .open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0px 5px;
+  }
+  
+  .sticky {
+    display: flex;
+    position: sticky;
+    top: 20px;
+    justify-content: space-between;
+    background-color:#dfd5bc;
+    padding: 25px 8px;
+    top: 0px;
+  }
+  
+  .button {
+    background-color: #ece3cd;
+    border-radius: 100%;
+    padding: 10px;
+    color: #bc9d6e;
+  }
+  
+  .blackbutton {
+    background-color: #f3ecda;
+    border-radius: 100%;
+    padding: 10px;
+    color: black;
+  }
+  
+  .button:hover, 
+  .blackbutton:hover {
+    opacity: 50%;
+  }
+  
+  img {
+    max-height: 25px;
+    padding: 7px;
+    background-color: rgba(114, 110, 96, .1);
+    border-radius: 100%;
+  }
+  
+  .profile {
+    width: 40px;
+    height: 50px;
+    padding: 0px;
+    max-height: 35px;
+    border: white solid 2px
+  }
+  
+  .flex {
+    align-items: center;
+    display: flex;
+  }
+  
+  
+  
+  .initials {
+    background-color: #cdf765;
+    padding: 7px;
+    border-radius: 100%;
+    
+  }
+  
+  .gap {
+    gap: 6px;
+  }
+  
+  .invite {
+    background-color: #FFF;
+    display: flex;
+    padding: 8px;
+    border-radius: 50px;
+    width: fit-content;
+    border: 1px solid rgba(0,0,0,.1);
+  }
+  
+  .dashboard {
+    font-size: larger;
+    justify-content: space-between;
+  }
+  
+  #whitebackground {
+    background-color: white;
+  }
+  
+  .maxheight {
+    max-height: 38px;
+  }
+  
+  .robothelper {
+    min-width: 253px;
+  }
+  
+  .whitedashboard {
+    background-color: white;
+    border-radius: 50px;
+  }
+  
+  .black {
+    color: black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .datasourcesBox {
+    height: 300px;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .datahead {
+    padding: 10px 25px 5px 20px;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .pmargin {
+    padding: 0px 0px 0px 20px;
+    margin: 0px
+  }
