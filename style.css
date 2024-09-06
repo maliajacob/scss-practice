@@ -44,10 +44,14 @@
 
 
 
+
+
+
+
+
 * {
   text-decoration: none;
 }
-
 body {
   background-color: #dfd5bc;
   height: 3000px;
@@ -55,7 +59,6 @@ body {
   border: 0px;
   margin: 0px;
 }
-
 .background2 {
   background-color: #f3ecda;
   display: flex;
@@ -63,7 +66,6 @@ body {
   border-radius: 50px;
   width: fit-content;
 }
-
 .open-sans-light {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -71,9 +73,7 @@ body {
   font-style: normal;
   padding: 0px 5px;
   font-size: small;
-
 }
-
 .open-sans {
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
@@ -81,7 +81,6 @@ font-weight: 500;
 font-style: normal;
 padding: 0px 10px;
 }
-
 .open-sans-bold {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -89,7 +88,6 @@ padding: 0px 10px;
   font-style: normal;
   padding: 0px 5px;
 }
-
 .sticky {
   display: flex;
   position: sticky;
@@ -99,33 +97,28 @@ padding: 0px 10px;
   padding: 25px 8px;
   top: 0px;
 }
-
 .button {
   background-color: #ece3cd;
   border-radius: 100%;
   padding: 10px;
   color: #bc9d6e;
 }
-
 .blackbutton {
   background-color: #f3ecda;
   border-radius: 100%;
   padding: 10px;
   color: black;
 }
-
 .button:hover, 
 .blackbutton:hover {
   opacity: 50%;
 }
-
 img {
   max-height: 25px;
   padding: 7px;
   background-color: rgba(114, 110, 96, .1);
   border-radius: 100%;
 }
-
 .profile {
   width: 40px;
   height: 50px;
@@ -133,19 +126,15 @@ img {
   max-height: 35px;
   border: white solid 2px
 }
-
 .flex {
   align-items: center;
   display: flex;
 }
 
-
-
 .initials {
   background-color: #cdf765;
   padding: 7px;
   border-radius: 100%;
-  
 }
 
 .gap {
@@ -160,29 +149,23 @@ img {
   width: fit-content;
   border: 1px solid rgba(0,0,0,.1);
 }
-
 .dashboard {
   font-size: larger;
   justify-content: space-between;
 }
-
 #whitebackground {
   background-color: white;
 }
-
 .maxheight {
   max-height: 38px;
 }
-
 .robothelper {
   min-width: 253px;
 }
-
 .whitedashboard {
   background-color: white;
   border-radius: 50px;
 }
-
 .black {
   color: black;
 }
@@ -193,8 +176,10 @@ img {
 
 
 
+
+
 .datasourcesBox {
-  height: 100px;
+  height: 300px;
   background-color: white;
   width: 100%;
   align-items: center;
@@ -210,3 +195,4 @@ img {
   padding: 0px 0px 0px 20px;
   margin: 0px
 }
+
