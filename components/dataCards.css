@@ -26,14 +26,14 @@ body {
   border-radius: 15px;
   margin: 0 auto;
 }
-.dataCardContainer .material-symbols-outlined {
+.dataCardContainer .topDataIcon {
   border-radius: 100%;
   background-color: #f3ecda;
   padding: 15px;
 }
 .dataCardContainer p {
-  padding-top: 10px;
-  font-size: 1.3rem;
+  padding: 10px 0;
+  font-size: 1.5rem;
 }
 .dataCardContainer .bottomPaddingP {
   padding-bottom: 15px;
@@ -43,5 +43,11 @@ body {
 .dataCardContainer .bottomCardSection {
   height: 9vh;
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
+}
+.dataCardContainer .arrowIcon {
+  padding: 10px;
+  border-radius: 100%;
+  border: 1px solid rgb(217, 217, 217);
 }/*# sourceMappingURL=dataCards.css.map */

@@ -25,14 +25,14 @@ body{
         border-radius: 15px;
         margin: 0 auto;
     }
-    .material-symbols-outlined{
+    .topDataIcon{
         border-radius: 100%;
         background-color: colors.$background2;
         padding: 15px;
     }
     p{
-        padding-top: 10px;
-        font-size: 1.3rem;
+        padding: 10px 0;
+        font-size: 1.5rem;
     }
     .bottomPaddingP{
         padding-bottom: 15px;
@@ -42,6 +42,12 @@ body{
     .bottomCardSection{
         height: 9vh;
         display: flex;
-        align-items: baseline;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .arrowIcon{
+        padding: 10px;
+        border-radius: 100%;
+        border: 1px solid rgb(217, 217, 217);
     }
 }
