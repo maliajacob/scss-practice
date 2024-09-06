@@ -10,11 +10,12 @@ body {
 
 .tableContainer {
   width: 95%;
-  height: 250px;
+  height: 300px;
   background-color: white;
   margin: 0 auto;
   display: flex;
   border-radius: 15px;
+  position: relative;
 }
 .tableContainer .tableContainerTop {
   align-content: flex-start;
@@ -31,9 +32,25 @@ body {
   border-radius: 50px;
   cursor: pointer;
 }
-.tableContainer table {
-  justify-self: flex-start;
+.tableContainer .tableContainerTableDiv {
+  position: absolute;
   align-self: flex-end;
-  height: 20%;
+  height: 60%;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, 0%);
+  width: 95%;
+  margin: 0 auto;
+  border: 1px solid #a4a4a4;
+  border-radius: 15px;
+  padding: 0 15px;
+}
+.tableContainer .tableContainerTableDiv table {
+  height: 100%;
   width: 100%;
+  align-items: center;
+}
+.tableContainer .tableContainerTableDiv table td {
+  border-bottom: 1px solid #a4a4a4;
+  padding: 0;
 }/*# sourceMappingURL=chatTable.css.map */
