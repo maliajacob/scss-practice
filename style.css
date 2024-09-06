@@ -65,6 +65,7 @@ navbar {
   padding: 15px 20px;
   cursor: pointer;
   border-radius: 50px;
+  border: none;
 }
 
 .greenBoxContainer .greenBoxContainerContained .material-symbols-outlined {
