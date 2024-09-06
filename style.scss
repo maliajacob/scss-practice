@@ -5,7 +5,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
   }
-  
   .greenBoxContainer .greenBoxContainerContained {
     height: 100px;
     background-color: #cdf765;
@@ -203,6 +202,15 @@
     width: 100%;
     align-items: center;
     border-radius: 15px;
+    
+    .datasourcesInnerBox{
+      height: 70%;
+      width: 98%;
+      align-self: center;
+      margin: 0 auto;
+      border: 1px solid #a4a4a4;
+      border-radius: 15px;
+    }
   }
   
   .datahead {

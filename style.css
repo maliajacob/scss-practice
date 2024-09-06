@@ -241,6 +241,14 @@ img {
   align-items: center;
   border-radius: 15px;
 }
+.datasourcesBox .datasourcesInnerBox {
+  height: 70%;
+  width: 98%;
+  align-self: center;
+  margin: 0 auto;
+  border: 1px solid #a4a4a4;
+  border-radius: 15px;
+}
 
 .datahead {
   padding: 10px 25px 5px 20px;
