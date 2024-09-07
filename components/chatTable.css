@@ -54,3 +54,12 @@ body {
   border-bottom: 1px solid #a4a4a4;
   padding: 0;
 }/*# sourceMappingURL=chatTable.css.map */
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.writingicon {
+  padding: 8px 12px 8px 0px;
+}

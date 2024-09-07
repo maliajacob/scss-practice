@@ -65,6 +65,7 @@ navbar {
   padding: 15px 20px;
   cursor: pointer;
   border-radius: 50px;
+  border: none;
 }
 
 .greenBoxContainer .greenBoxContainerContained .material-symbols-outlined {
@@ -121,6 +122,7 @@ body {
   font-style: normal;
   padding: 0px 5px;
   font-size: small;
+  height: 25px;
 }
 
 .open-sans {
@@ -235,7 +237,7 @@ img {
 }
 
 .datasourcesBox {
-  height: 300px;
+  height: 330px;
   background-color: white;
   width: 100%;
   align-items: center;
