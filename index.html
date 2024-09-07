@@ -12,10 +12,10 @@
 </head>
 <body>
     <header class="sticky">
-        <div class="robothelper">
+        <div class="robothelper flex">
             <div class="flex background2 gap maxheight">
                 <img src="robot.png" alt="">
-                <span class="open-sans-bold ">Charlotte</span>
+                <span class="logoFont">Charlotte</span>
         </div>
         </div>
         <div class="flex background2 gap ">
@@ -50,19 +50,26 @@
         </div>
     </header>
 
-
+<div class="padding">
     
+
+
+
+
     <div class="flex gap dashboard">
-        <h1 class="open-sans">Dashboard</h1> 
+        <h1 class="headingFont">Dashboard</h1> 
         <div id="whitebackground" class="flex gap background2">
-            <img class="profile" src="profile1.jpeg" alt="Friend">
-            <img class="profile" src="profile2.jpeg" alt="Friend">
-            <img class="profile" src="profile3.jpeg" alt="Friend">
+            <img class="profile" src="profile1.jpeg" alt="Member">
+            <img class="profile" src="profile2.jpeg" alt="Member">
+            <img class="profile" src="profile3.jpeg" alt="Member">
             <div class="flex invite gap open-sans-light"><div>Invite Member</div></div>
         </div>
     </div>
 
 
+
+
+    
 
     <container class="greenBoxContainer">
         <div class="greenBoxContainerContained">
@@ -85,7 +92,7 @@
     </container>
     <br>
     <container class="dataCardContainer">
-        <div class="dataCard dataCard1">
+        <div class="dataCard dataCard1 supacoolBorder">
             <div class="dataCardData">
                 <div class="topCardSection">
                     <span>
@@ -100,14 +107,14 @@
                 <div class="bottomCardSection">
                     <p style="font-size: 1.7rem;">12,439</p>
                     <span>
-                        <span class="material-symbols-outlined arrowIcon">
+                        <span class="material-symbols-outlined arrowIcon boxshadow">
                         north_east
                         </span>
                     </span>
                 </div>
             </div>
         </div>
-        <div class="dataCard dataCard2">
+        <div class="dataCard dataCard2 supacoolBorder">
             <div class="dataCardData">
                 <div class="topCardSection">
                     <span>
@@ -122,14 +129,14 @@
                 <div class="bottomCardSection">
                     <p style="font-size: 1.7rem;">481</p>
                     <span>
-                        <span class="material-symbols-outlined arrowIcon">
+                        <span class="material-symbols-outlined arrowIcon boxshadow">
                         north_east
                         </span>
                     </span>
                 </div>
             </div>
         </div>
-        <div class="dataCard dataCard3">
+        <div class="dataCard dataCard3 supacoolBorder">
             <div class="dataCardData">
                 <div class="topCardSection">
                     <span>
@@ -144,7 +151,7 @@
                 <div class="bottomCardSection">
                     <p style="font-size: 1.7rem;">46min</p>
                     <span>
-                        <span class="material-symbols-outlined arrowIcon">
+                        <span class="material-symbols-outlined arrowIcon boxshadow">
                         north_east
                         </span>
                     </span>
@@ -154,14 +161,60 @@
     </container>
 
 
-    <div class="datasourcesBox">
-        <h3 class="open-sans datahead">Data Sources</h3>
-        <p class="open-sans-light pmargin">These data sources provide by SmartBox with knowledge. SmartBox will use following content to search through data and use that to formulate its answers</p>
+
+
+
+
+    <container>
+        <div class="chatbotBox chatboxhead supacoolTable supacoolBorder">
+            <div class="flex spacebetween">
+                <div>
+                    <h2 class="font">My Chatbot</h2>
+                    <p class="subtitleFont">Manage and customize your personal chatbot to suit your needs and preferences.</p>
+                </div>
+                <button class="manageButton invite boxshadow">Manage</button>
+            </div>
+            
+            
+            <table class="chatTable flex">
+                <tr>
+                    <td><div class="flex"><span class="material-symbols-outlined writingicon">edit_note</span>Marketplace Auto Message</div></td>
+                    <td>Edited Now</td>
+                    <td>Facebook, Messenger</td>
+                    <td class="menuFont">. . .</td>
+                </tr>
+                <tr>
+                    <td><div class="flex"><span class="material-symbols-outlined writingicon">edit_note</span>Autoreply Bot</div></td>
+                    <td>Edited 1 minutes ago</td>
+                    <td>Instagram</td>
+                    <td class="menuFont">. . .</td>
+                </tr>
+                <tr>
+                    <td><div class="flex"><span class="material-symbols-outlined writingicon">edit_note</span>Product Consultant</div></td>
+                    <td>Edited 4 days ago</td>
+                    <td>Shopify</td>
+                    <td class="menuFont">. . .</td>
+                </tr>
+            </table>
+        </div>
+        
+    </container>
+
+
+
+
+    <div class="datasourcesBox supacoolBorder">
+        <h3 class="datahead font">Data Sources</h3>
+        <p class="subtitleFont pmargin">These data sources provide by SmartBox with knowledge. SmartBox will use following content to search through data and use that to formulate its answers</p>
         <br>
         <div class="datasourcesInnerBox">
 
         </div>
     </div>
-        
+      
+    
+
+</div>
+
 </body>
 </html>

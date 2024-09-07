@@ -1,9 +1,6 @@
-navbar {
-  justify-content: center;
-}
-
 * {
   font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
 }
 
 .greenBoxContainer .greenBoxContainerContained {
@@ -80,8 +77,9 @@ navbar {
   padding: 0 20px;
 }
 
-.greenBoxContainer .greenBoxContainerContained .greenBoxButtonSpan {
+.greenBoxContainer .greenBoxContainerContained .greenBoxButton {
   padding-right: 20px;
+  font-size: 14px;
 }
 
 .greenBoxContainer .greenBoxContainerContained .greenBoxTextDiv {
@@ -89,21 +87,21 @@ navbar {
 }
 
 .greenBoxContainer .greenBoxContainerContained .greenBoxTextDiv .greenBoxTopText {
-  font-weight: 550;
-  font-size: 1.2rem;
+  font-weight: 200;
+  font-size: 20px;
   padding-top: 8px;
-  line-height: 2px;
 } 
+
 * {
   text-decoration: none;
 }
 
 body {
-  background-color: #dfd5bc;
-  height: 3000px;
-  padding: 0px 20px;
+  height: 1210px;
+  /* padding: 0px 20px; */
   border: 0px;
   margin: 0px;
+  background-image: linear-gradient(to bottom,#dfd5bc 0%, #dfd5bc 50%, #f3ecda 50%, #f3ecda 100%);
 }
 
 .background2 {
@@ -121,7 +119,7 @@ body {
   font-weight: 300;
   font-style: normal;
   padding: 0px 5px;
-  font-size: small;
+  font-size: 14px;
   height: 25px;
 }
 
@@ -144,11 +142,11 @@ body {
 .sticky {
   display: flex;
   position: sticky;
-  top: 20px;
   justify-content: space-between;
   background-color: #dfd5bc;
-  padding: 25px 8px;
+  padding: 20px 20px 25px 20px;
   top: 0px;
+  z-index: 30;
 }
 
 .button {
@@ -172,17 +170,17 @@ body {
 
 img {
   max-height: 25px;
-  padding: 7px;
+  padding: 5.5px;
   background-color: rgba(114, 110, 96, 0.1);
   border-radius: 100%;
 }
 
 .profile {
   width: 40px;
-  height: 50px;
+  height: 50;
   padding: 0px;
   max-height: 35px;
-  border: white solid 2px;
+  border-style: solid white;
 }
 
 .flex {
@@ -197,7 +195,7 @@ img {
 }
 
 .gap {
-  gap: 6px;
+  gap: 4px;
 }
 
 .invite {
@@ -205,7 +203,6 @@ img {
   display: flex;
   padding: 8px;
   border-radius: 50px;
-  width: -moz-fit-content;
   width: fit-content;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -237,24 +234,31 @@ img {
 }
 
 .datasourcesBox {
-  height: 330px;
+  height: 200px;
   background-color: white;
-  width: 100%;
   align-items: center;
   border-radius: 15px;
+  margin: 25px 0 0 0;
+
+
+  
 }
 .datasourcesBox .datasourcesInnerBox {
-  height: 70%;
+  height: 40%;
   width: 98%;
   align-self: center;
   margin: 0 auto;
-  border: 1px solid #a4a4a4;
+  border: 1px solid #ddd;
   border-radius: 15px;
 }
 
 .datahead {
-  padding: 10px 25px 5px 20px;
-  margin: 20px 0px 0px 0px;
+  padding: 25px 20px 0px 20px;
+  margin: 0px 0px 15px 0px;
+}
+
+.chatboxhead {
+  padding: 0px 20px 0px 20px;
 }
 
 .pmargin {
@@ -268,7 +272,7 @@ body {
 
 .dataCardContainer {
   width: 100%;
-  margin: 0 auto;
+  margin: 10px 0px 53px 0px;
   display: flex;
   gap: 25px;
 }
@@ -311,3 +315,156 @@ body {
   border-radius: 100%;
   border: 1px solid rgb(217, 217, 217);
 }/*# sourceMappingURL=style.css.map */
+
+.chatTable {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+
+}
+
+tr:last-of-type {
+  border-bottom: none;
+}
+
+
+
+/* td:nth-of-type(3) {
+  column-width: 300px;
+} */
+
+.chatTable td {
+  padding: 15px 20px;
+  column-width: 400px;
+}
+
+td:last-of-type {
+  column-width: 35px;
+  font-weight: bolder
+}
+/* 
+.chatTable, th, td {
+  border: 1px solid black;
+  border-radius: 100%;
+  border-left: none;
+  border-right: none;
+} */
+
+.writingicon {
+  padding: 8px 12px 8px 0px;
+}
+
+/* .lighterbackground {
+  background: #f3ecda;
+  padding: 20px;
+} */
+
+/* .darkerbackground {
+  background-color: #dfd5bc;
+  height: 3000px;
+  padding: 0px 20px;
+  border: 0px;
+  margin: 0px;
+} */
+
+.supacoolBorder {
+  border: 2px #ededed solid;
+}
+
+.padding {
+  padding: 0px 20px;
+}
+
+.chatTable .whiteBox {
+  height: 70%;
+  width: 98%;
+  align-self: center;
+  margin: 0 auto;
+  border: 1px solid #a4a4a4;
+  border-radius: 15px;
+}
+
+.manageButton {
+  font-size: 14px;
+  padding: 13px;
+}
+
+.boxshadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.spacebetween {
+  justify-content: space-between;
+  padding: 5px 0px
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.subtitleFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #888888
+}
+
+.subtitleFont2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h2 {
+  margin: 18px 0px 0px 0px
+}
+
+.headingFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.chatbotBox {
+  height: 340px;
+  background-color: white;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.menuFont {
+  font-weight:300;
+  font-size: 20px;
+  align-items: center;
+}
+
+hr {
+  opacity: 10%;
+}
+
+.logoFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 0px 5px;
+}
+
+.greenBoxBottomText {
+  font-weight: 100;
+  color: #3b3b3b
+}
+/* 
+.greenBoxTopText {
+  font-weight: bold;
+  font-size: 25px;
+} */
