@@ -11,210 +11,184 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="sticky">
-        <div class="robothelper flex">
-            <div class="flex background2 gap maxheight">
-                <img src="robot.png" alt="">
+    <header class="navbar">
+        <div class="logoCentering flex">
+            <div class="flex background2Frame">
+                <img src="robot.png" alt="logo">
                 <span class="logoFont">Charlotte</span>
+            </div>
         </div>
-        </div>
-        <div class="flex background2 gap ">
-            <div><div class="background2 flex whitedashboard open-sans"><span class="material-symbols-outlined button black whitedashboard">
-                other_houses
-                </span>Dashboard</div></div>
-                
+        <div class="flex background2Frame gap">
+            <div class="flex open-sans" id="whiteFrame"><span class="material-symbols-outlined iconMargin">
+                other_houses</span>Dashboard</div>
             <div><span class="material-symbols-outlined button">
-                smart_toy
-                </span></div>
+                smart_toy</span></div>
             <div><span class="material-symbols-outlined button">
-                extension
-                </span></div>
+                extension</span></div>
             <div><span class="material-symbols-outlined button">
-                edit_square
-                </span></div>
+                edit_square</span></div>
             <div><span class="material-symbols-outlined button">
-                group
-                </span></div>
+                group</span></div>
         </div>
         <div class="flex gap">
-            <div class="flex background2 gap">
+            <div class="flex background2Frame gap">
                 <div class="initials open-sans-bold">RA</div>
                 <span class="open-sans">Rizal Ahmad</span>
             </div>
-            <div><span class="material-symbols-outlined blackbutton">
-                notifications
-                </span></div>
-            <div><span class="material-symbols-outlined blackbutton">
-                settings
-                </span></div>
+            <div><span class="material-symbols-outlined blackButton">
+                notifications</span></div>
+            <div><span class="material-symbols-outlined blackButton">
+                settings</span></div>
         </div>
     </header>
 
-<div class="padding">
-    
-
-
-
-
-    <div class="flex gap dashboard">
-        <h1 class="headingFont">Dashboard</h1> 
-        <div id="whitebackground" class="flex gap background2">
-            <img class="profile" src="profile1.jpeg" alt="Member">
-            <img class="profile" src="profile2.jpeg" alt="Member">
-            <img class="profile" src="profile3.jpeg" alt="Member">
-            <div class="flex invite gap open-sans-light"><div>Invite Member</div></div>
-        </div>
-    </div>
-
-
-
-
-    
-
-    <container class="greenBoxContainer">
-        <div class="greenBoxContainerContained">
-            <span class="greenBoxIcon">
-                <span class="material-symbols-outlined">
-                    smart_toy
-                    </span>
-            </span>
-            <div class="greenBoxTextDiv">
-                <p class="greenBoxTopText">Create your first ChatBot</p>
-                <p class="greenBoxBottomText">
-                Let's create your chatbot from the ground up to improve your 
-                assistant's functionality.
-                </p>
-            </div>
-            <span class="greenBoxButtonSpan">
-                <button class="greenBoxButton">Start Creating</button>
-            </span>
-        </div>
-    </container>
-    <br>
-    <container class="dataCardContainer">
-        <div class="dataCard dataCard1 supacoolBorder">
-            <div class="dataCardData">
-                <div class="topCardSection">
-                    <span>
-                        <span class="material-symbols-outlined topDataIcon">
-                        forum
-                        </span>
-                    </span>
-                    <p>Answer Rate</p>
-                    <p class="bottomPaddingP">The percentage of questions answered.</p>
-                </div>
-                <hr>
-                <div class="bottomCardSection">
-                    <p style="font-size: 1.7rem;">12,439</p>
-                    <span>
-                        <span class="material-symbols-outlined arrowIcon boxshadow">
-                        north_east
-                        </span>
-                    </span>
+    <div class="mainContentContainer">
+        <container>
+            <div class="flex gap spacebetween">
+                <h1>Dashboard</h1> 
+                <div id="whiteFrame" class="flex gap background2Frame">
+                    <img class="profile" src="profile1.jpeg" alt="Member">
+                    <img class="profile" src="profile2.jpeg" alt="Member">
+                    <img class="profile" src="profile3.jpeg" alt="Member">
+                    <button class="flex gap whiteButton supacoolBorder">Invite Member</button>
                 </div>
             </div>
-        </div>
-        <div class="dataCard dataCard2 supacoolBorder">
-            <div class="dataCardData">
-                <div class="topCardSection">
-                    <span>
-                        <span class="material-symbols-outlined topDataIcon">
-                            headset_mic
-                        </span>
-                    </span>
-                    <p>Transferred to Operator</p>
-                    <p class="bottomPaddingP">Total questions visitor asked to operator.</p>
-                </div>
-                <hr>
-                <div class="bottomCardSection">
-                    <p style="font-size: 1.7rem;">481</p>
-                    <span>
-                        <span class="material-symbols-outlined arrowIcon boxshadow">
-                        north_east
-                        </span>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="dataCard dataCard3 supacoolBorder">
-            <div class="dataCardData">
-                <div class="topCardSection">
-                    <span>
-                        <span class="material-symbols-outlined topDataIcon">
-                        schedule
-                        </span>
-                    </span>
-                    <p>Time Saved</p>
-                    <p class="bottomPaddingP">Based on your conversation duration.</p>
-                </div>
-                <hr>
-                <div class="bottomCardSection">
-                    <p style="font-size: 1.7rem;">46min</p>
-                    <span>
-                        <span class="material-symbols-outlined arrowIcon boxshadow">
-                        north_east
-                        </span>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </container>
-
-
-
-
-
-
-    <container>
-        <div class="chatbotBox chatboxhead supacoolTable supacoolBorder">
-            <div class="flex spacebetween">
-                <div>
-                    <h2 class="font">My Chatbot</h2>
-                    <p class="subtitleFont">Manage and customize your personal chatbot to suit your needs and preferences.</p>
-                </div>
-                <button class="manageButton invite boxshadow">Manage</button>
-            </div>
-            
-            
-            <table class="chatTable flex">
-                <tr>
-                    <td><div class="flex"><span class="material-symbols-outlined writingicon">edit_note</span>Marketplace Auto Message</div></td>
-                    <td>Edited Now</td>
-                    <td>Facebook, Messenger</td>
-                    <td class="menuFont">. . .</td>
-                </tr>
-                <tr>
-                    <td><div class="flex"><span class="material-symbols-outlined writingicon">edit_note</span>Autoreply Bot</div></td>
-                    <td>Edited 1 minutes ago</td>
-                    <td>Instagram</td>
-                    <td class="menuFont">. . .</td>
-                </tr>
-                <tr>
-                    <td><div class="flex"><span class="material-symbols-outlined writingicon">edit_note</span>Product Consultant</div></td>
-                    <td>Edited 4 days ago</td>
-                    <td>Shopify</td>
-                    <td class="menuFont">. . .</td>
-                </tr>
-            </table>
-        </div>
+        </container>
         
-    </container>
+        <container class="greenBoxContainer">
+            <div class="greenBoxContainerContained">
+                <span class="greenBoxIcon">
+                    <span class="material-symbols-outlined">
+                        smart_toy
+                        </span>
+                </span>
+                <div class="greenBoxTextDiv">
+                    <p class="greenBoxTopText">Create your first ChatBot</p>
+                    <p class="greenBoxBottomText">
+                    Let's create your chatbot from the ground up to improve your 
+                    assistant's functionality.
+                    </p>
+                </div>
+                <span class="greenBoxButtonSpan">
+                    <button class="greenBoxButton">Start Creating</button>
+                </span>
+            </div>
+        </container><br>
 
+        <container class="dataCardContainer">
+            <div class="dataCard dataCard1 supacoolBorder">
+                <div class="dataCardData">
+                    <div class="topCardSection">
+                        <span>
+                            <span class="material-symbols-outlined topDataIcon">
+                            forum
+                            </span>
+                        </span>
+                        <p>Answer Rate</p>
+                        <p class="bottomPaddingP">The percentage of questions answered.</p>
+                    </div>
+                    <hr>
+                    <div class="bottomCardSection">
+                        <p style="font-size: 1.7rem;">12,439</p>
+                        <span>
+                            <span class="material-symbols-outlined arrowIcon boxshadow">
+                            north_east
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="dataCard dataCard2 supacoolBorder">
+                <div class="dataCardData">
+                    <div class="topCardSection">
+                        <span>
+                            <span class="material-symbols-outlined topDataIcon">
+                                headset_mic
+                            </span>
+                        </span>
+                        <p>Transferred to Operator</p>
+                        <p class="bottomPaddingP">Total questions visitor asked to operator.</p>
+                    </div>
+                    <hr>
+                    <div class="bottomCardSection">
+                        <p style="font-size: 1.7rem;">481</p>
+                        <span>
+                            <span class="material-symbols-outlined arrowIcon boxshadow">
+                            north_east
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="dataCard dataCard3 supacoolBorder">
+                <div class="dataCardData">
+                    <div class="topCardSection">
+                        <span>
+                            <span class="material-symbols-outlined topDataIcon">
+                            schedule
+                            </span>
+                        </span>
+                        <p>Time Saved</p>
+                        <p class="bottomPaddingP">Based on your conversation duration.</p>
+                    </div>
+                    <hr>
+                    <div class="bottomCardSection">
+                        <p style="font-size: 1.7rem;">46min</p>
+                        <span>
+                            <span class="material-symbols-outlined arrowIcon boxshadow">
+                            north_east
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </container>
 
+        <container>
+            <div class="chatbotBox supacoolBorder">
+                <div class="flex spacebetween">
+                    <div>
+                        <h2 class="subheadingFont">My Chatbot</h2>
+                        <p class="subtitleFont">Manage and customize your personal chatbot to suit your needs and preferences.</p>
+                    </div>
+                    <button class="whiteButton boxshadow supacoolBorder">Manage</button>
+                </div>
+                <table class="chatTable flex supacoolBorder">
+                    <tr>
+                        <td><div class="flex"><span class="material-symbols-outlined iconMargin">
+                            edit_note</span>Marketplace Auto Message</div></td>
+                        <td>Edited Now</td>
+                        <td>Facebook, Messenger</td>
+                        <td class="menuFont">. . .</td>
+                    </tr>
+                    <tr>
+                        <td><div class="flex"><span class="material-symbols-outlined iconMargin">
+                            edit_note</span>Autoreply Bot</div></td>
+                        <td>Edited 1 minutes ago</td>
+                        <td>Instagram</td>
+                        <td class="menuFont">. . .</td>
+                    </tr>
+                    <tr>
+                        <td><div class="flex"><span class="material-symbols-outlined iconMargin">
+                            edit_note</span>Product Consultant</div></td>
+                        <td>Edited 4 days ago</td>
+                        <td>Shopify</td>
+                        <td class="menuFont">. . .</td>
+                    </tr>
+                </table>
+            </div>
+        </container>
 
-
-    <div class="datasourcesBox supacoolBorder">
-        <h3 class="datahead font">Data Sources</h3>
-        <p class="subtitleFont pmargin">These data sources provide by SmartBox with knowledge. SmartBox will use following content to search through data and use that to formulate its answers</p>
-        <br>
-        <div class="datasourcesInnerBox">
-
-        </div>
+        <container>
+            <div class="datasourcesBox supacoolBorder">
+                <h3 class="dataHead subheadingFont">Data Sources</h3>
+                <p class="subtitleFont pmargin">
+                    These data sources provide by SmartBox with knowledge. SmartBox will use following 
+                    content to search through data and use that to formulate its answers
+                </p><br>
+                <div class="datasourcesInnerBox supacoolBorder"></div>
+            </div>
+        </container>
     </div>
-      
-    
-
-</div>
-
 </body>
 </html>
